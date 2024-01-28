@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.video {
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .App img {
+    object-fit: scale-down;
+  }
+}
+
+@media (max-width: 426px) {
+  .App img {
+    object-fit: scale-down; 
+  }
+}
